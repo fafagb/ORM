@@ -1,6 +1,6 @@
 # compiled files
-obj
-bin
+Infrastructure/obj
+Infrastructure/bin
 # user files
 .user
 .suo
