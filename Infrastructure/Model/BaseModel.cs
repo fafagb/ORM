@@ -1,3 +1,4 @@
+using System;
 using Infrastructure.Attributes.Filter;
 namespace Infrastructure.Model
 {
@@ -5,5 +6,8 @@ namespace Infrastructure.Model
     {
         [Filter]
         public int Id { get; set; }
+
+
+        
     }
 }

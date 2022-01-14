@@ -476,7 +476,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://nuget.hexfuture.com/nuget/HexFutureMicroService": {},
-        "http://www.gaokaoyun.net/RiCommon/nuget": {},
         "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {

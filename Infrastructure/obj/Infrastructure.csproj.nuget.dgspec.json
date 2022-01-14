@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mywork\\github\\ORM\\Infrastructure\\Infrastructure.csproj": {}
+    "d:\\mywork\\github\\ORM\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\mywork\\github\\ORM\\Infrastructure\\Infrastructure.csproj": {
+    "d:\\mywork\\github\\ORM\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mywork\\github\\ORM\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "d:\\mywork\\github\\ORM\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\mywork\\github\\ORM\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "d:\\mywork\\github\\ORM\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\mywork\\github\\ORM\\Infrastructure\\obj\\",
+        "outputPath": "d:\\mywork\\github\\ORM\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -26,7 +26,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://nuget.hexfuture.com/nuget/HexFutureMicroService": {},
-          "http://www.gaokaoyun.net/RiCommon/nuget": {},
           "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
