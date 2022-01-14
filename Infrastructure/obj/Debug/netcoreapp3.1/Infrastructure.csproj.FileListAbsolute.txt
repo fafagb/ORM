@@ -1,8 +1,0 @@
-D:\mywork\github\ORM\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
-D:\mywork\github\ORM\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
-D:\mywork\github\ORM\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
-D:\mywork\github\ORM\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
-D:\mywork\github\ORM\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
-D:\mywork\github\ORM\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
-D:\mywork\github\ORM\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
-D:\mywork\github\ORM\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
