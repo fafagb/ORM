@@ -1,6 +1,8 @@
-using System.ComponentModel.DataAnnotations.Schema;
+
+using Infrastructure.Attributes;
+
 namespace Infrastructure.Model {
-    [Table("User")]
+    [Table("Users")]
     public class UserModel : BaseModel {
         [Column("UserName")]
         public string Name { get; set; }

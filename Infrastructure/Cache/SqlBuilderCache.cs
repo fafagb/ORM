@@ -21,7 +21,7 @@ namespace Infrastructure.Cache {
 
             {
 
-                string columnName = string.Join (",", type.GetFilterProp ().Select (x => $"'{x.GetPropAttuibuteMapping()}'"));
+                string columnName = string.Join (",", type.GetFilterProp ().Select (x => $"{x.GetPropAttuibuteMapping()}"));
                 // string columnValue = string.Join (",", type.GetFilterProp ().Select (x => $"'{x.GetValue(t)}'"));
                 string columnValue = string.Join (",", type.GetFilterProp ().Select (x => $"@{x.GetPropAttuibuteMapping()}"));
                 _insertSql = $"insert into   {type.GetPropAttuibuteMapping()}   ({columnName})  values    ({columnValue})";
