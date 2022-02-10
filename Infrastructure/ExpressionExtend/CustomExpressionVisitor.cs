@@ -55,15 +55,17 @@ namespace Infrastructure.ExpressionExtend
 
         protected override Expression VisitMember(MemberExpression node)
         {
-            Console.WriteLine($"VisitMember：{node.NodeType} {node.Type} {node.ToString()}");
+            Console.WriteLine($"VisitMember：{node.NodeType} {node.Type} {node.ToString()} {node.Expression.Type} {node.Expression.NodeType} {node.Expression.GetType()}");
             //this.ConditionStack.Push($"{node.Member.GetMappingName()}");
-            if (node.Expression is ConstantExpression)
+            if (node.Expression is ConstantExpression||node.Expression.NodeType==ExpressionType.MemberAccess)
             {
+           
                 var value1 = this.InvokeValue(node);
-                var value2 = this.ReflectionValue(node);
+               // var value2 = this.ReflectionValue(node);
                 //this.ConditionStack.Push($"'{value1}'");
                 this._TempValue = value1;
             }
+           
             else
             {
                 //this.ConditionStack.Push($"{node.Member.Name}");

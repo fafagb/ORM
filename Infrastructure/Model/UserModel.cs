@@ -8,4 +8,14 @@ namespace Infrastructure.Model {
         public string Name { get; set; }
         public string Pwd { get; set; }
     }
+
+
+
+
+ public class UserModelDTO : BaseModel {
+        [Column("UserName")]
+        public string Name { get; set; }
+        public string Pwd { get; set; }
+    }
+
 }
